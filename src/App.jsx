@@ -1,4 +1,5 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 import { FourOhFour, Home, Play } from './pages';
 
 const router = createBrowserRouter([
