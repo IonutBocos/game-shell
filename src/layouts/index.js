@@ -1,2 +1,2 @@
-export * from './Layouts';
+export * from './Layout';
 export * from './FullscreenLayout';

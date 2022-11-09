@@ -7,7 +7,7 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: './play',
+    path: '/play',
     element: <Play></Play>,
   },
   {
@@ -15,6 +15,7 @@ const router = createBrowserRouter([
     element: <FourOhFour></FourOhFour>,
   },
 ]);
+
 function App() {
   return <RouterProvider router={router}></RouterProvider>;
 }
