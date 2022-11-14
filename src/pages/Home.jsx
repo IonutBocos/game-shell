@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '../components/common/ui';
 import { Layout } from '../layouts';
 import { add, sub, addNumber } from '../store/actions';
-import { login, setUser } from '../store/actions/authActions';
+import { login } from '../store/actions/authActions';
 
 export const Home = () => {
   const dispatch = useDispatch();

@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { initializeGoogleAuth } from '../../api/auth';
 
 export const GoogleLogin = () => {

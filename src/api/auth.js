@@ -7,13 +7,14 @@ export const initializeGoogleAuth = async () => {
     }
 
     window.addEventListener('load', () => {
-      /*global google */
+      /* global google */
       google.accounts.id.initialize({
         client_id:
-          '99668512952-2pb10fv0i8k8ae61o5bjedmiqbaf630t.apps.googleusercontent.com',
+          '813474181975-bgktal91iji7tjultll3n1iof9trdc9t.apps.googleusercontent.com',
         callback: (response) => {
           console.log(response);
         },
+        scope: 'email profile',
       });
       resolve();
       initialized = true;
