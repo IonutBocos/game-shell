@@ -1,3 +1,3 @@
-export * from './Layout';
-export * from './FullscreenLayout';
 export * from './AuthorizedLayout';
+export * from './FullscreenLayout';
+export * from './Layout';

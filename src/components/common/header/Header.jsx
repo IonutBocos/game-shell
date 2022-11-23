@@ -27,7 +27,7 @@ export const Header = () => {
         {authenticated ? (
           <div className="flex gap-2">
             <Link to="/profile" title="Profile">
-              <Button element="a">
+              <Button element="span">
                 <RiUser5Fill className="inline-block"></RiUser5Fill>
               </Button>
             </Link>
